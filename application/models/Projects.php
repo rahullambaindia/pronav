@@ -1,6 +1,7 @@
-<?php
+ <?php
 class Application_Model_Projects
-{
+{ 
+
 
     public static function GetProjectRow($project_id)
     {

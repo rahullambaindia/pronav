@@ -3,6 +3,7 @@ class ProjectController extends Zend_Controller_Action
 {
     public function init()
     {
+	
         ProNav_Auth::authenticate();
         $project_id = $this->_getParam('id',-1);
         $workgroup_id = $this->_getParam('workgroup_id',-1);

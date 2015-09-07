@@ -58,6 +58,7 @@ var project = {
                 timeFormat : 'hh:mm TT'
             });                        
 
+			
             $("#done-for-corporation-autocomplete").autocompletePlus({
                 list_field : "#done-for-corporation",
                 label : 'Search Customers',
