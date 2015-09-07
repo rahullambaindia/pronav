@@ -8,7 +8,7 @@ class ProjectController extends Zend_Controller_Action
         $project_id = $this->_getParam('id',-1);
         $workgroup_id = $this->_getParam('workgroup_id',-1);
         $corporation_id = $this->_getParam('corporation_id',-1);
-        /* NOTE updating the overall project status and its tasks is handled in the TaskController */
+        /* NOTE updating the overall project status and its tasks is  to handled in the TaskController */
 
         switch ($this->getRequest()->getActionName())
         {
